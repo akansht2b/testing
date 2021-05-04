@@ -35,3 +35,22 @@ Creating git repo:
 1. Initialize git in that directory: git init
 2. change git user and email
 
+git add remote username url
+
+3. git add "filename or filenames or . or -a"
+4. git commit -m "commit statement"
+5. git push -u origin branch_name, git push --set-upstream origin branch_name  (if branch does not exists on remote)
+6. git push file_name or dir_name (id branch is already there)
+7. git status
+
+
+TO check branch:
+---------------
+git branch (current branch)
+git branch -a (all branches)
+git branch -r -a (all remote branches)
+
+Checkout:
+--------
+1. git checkout branch name (locally)
+2. git checkout -b branch_name (create new branch and checkout)
