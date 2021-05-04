@@ -1,0 +1,37 @@
+1. VCS sometime also called SCM(source code management) or RCS(revision Control System).
+
+2. Git is distributed VCS.
+3.
+
+sudo apt-get install git (to install)
+git --version (to check version)
+
+
+To configure git user and email globally
+----------------------------------------
+
+git config --global user.name "user name"
+git config --global user.email "user email"
+
+
+TO configure git user and email locally:
+---------------------------------------
+git config user.name "user name"
+git config user.name "user email"
+
+
+Check git user and email:
+------------------------
+
+git config user.name
+git config user.email
+git config --list (return username and useremail)
+
+more ~/.gitconfig
+
+Creating git repo:
+-----------------
+
+1. Initialize git in that directory: git init
+2. change git user and email
+
