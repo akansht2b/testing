@@ -35,3 +35,11 @@ Creating git repo:
 1. Initialize git in that directory: git init
 2. change git user and email
 
+
+Delete local and remote branch:
+------------------------------
+
+1. git branch -d branch_name
+2. git push origin --delete branch_name
+
+
