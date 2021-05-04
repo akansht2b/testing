@@ -42,4 +42,7 @@ Delete local and remote branch:
 1. git branch -d branch_name
 2. git push origin --delete branch_name
 
+Clone a repo:
+------------
 
+1. git clone url (to clone a repo in local)
